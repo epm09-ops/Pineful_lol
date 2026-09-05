@@ -22,14 +22,10 @@
         "directions": [ 
           "down"
         ],
-        "exclusion_radius_xz" : 1, 
+        "exclusion_radius_xz" : 0, 
         "exclusion_radius_y" : 0, 
-        "probability": 0.05, 
+        "probability": 1, 
         "required_empty_blocks": 1
-      },
-      {
-        "type": "environmental:pinecone",
-        "probability": 0.05
       }
     ],
     "dirt_provider": {
