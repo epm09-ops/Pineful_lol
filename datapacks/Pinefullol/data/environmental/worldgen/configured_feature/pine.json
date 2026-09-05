@@ -7,7 +7,7 @@
         "block_provider": { 
           "type": "minecraft:randomized_int_state_provider",
           "property": "amount", 
-          "source":{ 
+          "source": { 
             "type": "minecraft:simple_state_provider",
             "state": { 
               "Name": "windswept:pinecone"
@@ -23,10 +23,10 @@
           "down"
         ],
         "exclusion_radius_xz" : 1, 
-        "exclusion_radis_y" : 0, 
+        "exclusion_radius_y" : 0, 
         "probability": 0.05, 
         "required_empty_blocks": 1
-      }    
+      },
       {
         "type": "environmental:pinecone",
         "probability": 0.05
